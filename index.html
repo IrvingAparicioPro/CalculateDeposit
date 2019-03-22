@@ -23,15 +23,26 @@
                         <label for="inversion">¿Cuál es el valor de tu inversión?</label>
                         <input type="text" class="form-control" id="inversion">
                     </div>
+
+                    <label for="inversion">¿Cuál es el Interes?</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="interes">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">%</span>
+                        </div>
+                    </div>
+                    <span class="bg-gradient-primary" id="message">Enter Porcentage.</span>
+
                     <div class="form-group">
-                        <label for="time">Select list:</label>
+                        <label for="time">Select Days:</label>
                         <select class="form-control" id="time">
-                            <option value="30">30</option>
-                            <option value="60">60</option>
-                            <option value="90">90</option>
-                            <option value="120">120</option>
-                            <option value="150">150</option>
-                            <option value="180">180</option>
+                            <option value="30">30 Días</option>
+                            <option value="60">60 Días</option>
+                            <option value="90">90 Días</option>
+                            <option value="120">120 Días</option>
+                            <option value="150">150 Días</option>
+                            <option value="180">180 Días</option>
+                            <option value="360">360 Días</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-outline-primary w-50" id="calculate">Calcular</button>
