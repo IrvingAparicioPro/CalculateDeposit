@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposito a Plazo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main-css.css">
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1 class="display-2">Calcular Deposito a Plazo</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <form action="#" class="w-50">
+                    <div class="form-group">
+                        <label for="inversion">¿Cuál es el valor de tu inversión?</label>
+                        <input type="text" class="form-control" id="inversion">
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Select list:</label>
+                        <select class="form-control" id="time">
+                            <option value="30">30</option>
+                            <option value="60">60</option>
+                            <option value="90">90</option>
+                            <option value="120">120</option>
+                            <option value="150">150</option>
+                            <option value="180">180</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary w-50" id="calculate">Calcular</button>
+                </form>
+            </div>
+            <div class="col-6">
+                <p id="results" class="display-6"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="javascript/main-js.js"></script>
+</body></html>
