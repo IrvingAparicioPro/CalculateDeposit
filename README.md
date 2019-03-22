@@ -7,8 +7,8 @@ This tool will let you know how much you can get in a period of time.
 
 Note: 
 What you need to know:
-  * How much you will deposite.
-  * What it is the interest.
+  * How much you will deposite ($).
+  * What it is the interest (%).
   * Time frame.
   
   
