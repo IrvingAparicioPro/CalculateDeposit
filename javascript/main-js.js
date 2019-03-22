@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $("#message").hide();
+    $('[data-toggle="Message"]').popover({ placement: "right"});
 
     $('#inversion').keyup(function (event) {
 
@@ -16,14 +16,6 @@ $(document).ready(function () {
         });
     });
 
-    $("#interes").focusin(function () {
-        $("#message").show();
-    });
-
-    $("#interes").focusout(function () {
-        $("#message").hide();
-    });
-
     $("#calculate").click(function () {
         var time = $("#time").val();
         var inversion = $("#inversion").val().replace(/,/g, ''),
@@ -32,6 +24,6 @@ $(document).ready(function () {
 
         var ganancia = inversion * ((interes / 100) * (time / 365));
 
-        $("#results").text("$" + parseFloat(ganancia.toString().match(/^\d+(?:\.\d{0,2})?/)));
+        $("#results").text("Ganancia: $" + parseFloat(ganancia.toString().match(/^\d+(?:\.\d{0,2})?/)));
     });
 });
