@@ -12,3 +12,10 @@ What you need to know:
   * Time frame.
   
   
+  
+Tools applied:
+ * HTML5.
+ * CSS3.
+  * Bootsrap 4.
+ * JavaScript.
+  * JQuery.
